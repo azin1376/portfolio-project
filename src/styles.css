@@ -15,10 +15,10 @@ h1 {
 }
 .p-style {
   font-family: Nunito;
-  font-weight: 200;
+  font-weight: 700;
   color: #fff;
   text-align: center;
-  font-size: 24px;
+  font-size: 18px;
 }
 .foot {
   background-color: #f9f7fe;
@@ -27,22 +27,29 @@ h1 {
   font-family: Roboto;
   font-weight: 400;
 }
-.icon{
-    display: flex;
-    justify-content: center;
+.icon {
+  display: flex;
+  justify-content: center;
+}
+.p-style3 {
+  font-family: Nunito;
+  font-weight: 700;
+  font-size: 20px;
 }
 
-@media(max-width:576px){
-    h1{
-        font-family: Nunito;
-        font-size: 40px;
-    }
-    .p-style{
-        font-family: Nunito;
-        font-size: 20px;
-    }
-.foot{
-   text-align: center;
-}
-
+@media (max-width: 576px) {
+  h1 {
+    font-family: Nunito;
+    font-size: 40px;
+  }
+  .p-style {
+    font-family: Nunito;
+    font-size: 18px;
+  }
+  .foot {
+    text-align: center;
+  }
+  .p-style3 {
+    font-size: 14px;
+  }
 }

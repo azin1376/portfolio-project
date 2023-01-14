@@ -13,6 +13,9 @@ h1 {
   font-size: 52px;
   padding-top: 30px;
 }
+nav {
+  position: absolute;
+}
 .p-style {
   font-family: Nunito;
   font-weight: 700;
@@ -22,6 +25,7 @@ h1 {
 }
 .foot {
   background-color: #f9f7fe;
+  padding: 10px;
 }
 .p-style2 {
   font-family: Roboto;
@@ -35,6 +39,68 @@ h1 {
   font-family: Nunito;
   font-weight: 700;
   font-size: 20px;
+}
+.img {
+  width: 150px;
+}
+.heading {
+  font-family: Nunito;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 60px;
+}
+.name{
+  font-family: Nunito;
+  font-weight: 700;
+  font-size: 42px;
+  color: #000;
+  margin-top: 40px;
+}
+.margin{
+margin: 50px;
+}
+.margin1{
+  margin-top: 150px;
+}
+.heading2{
+  color: #000;
+}
+.img1{
+display: block;
+margin: 30px auto;
+}
+.border1{
+  border-bottom: 3px dashed #67D5D2;
+  line-height: 2;
+  font-family: Nunito;
+  font-weight: bold;
+  color: #000;
+}
+.clr
+{
+  color: red;
+  font-weight: bold;
+  font-family: Nunito;
+}
+.p-style4{
+  font-family: Nunito;
+  font-weight: bold;
+  color: #000;
+}
+.h-style{
+  margin: 20px 0px;
+  font-family:Nunito;
+  font-weight: 700;
+  font-size: 18px;
+  color: #662EED;
+}
+.p-style5{
+  font-family: Nunito;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 30px;
+  margin-left: 30px;
+
 }
 
 @media (max-width: 576px) {
@@ -51,5 +117,8 @@ h1 {
   }
   .p-style3 {
     font-size: 14px;
+  }
+  .image-design{
+    width: 100%;
   }
 }

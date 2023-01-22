@@ -49,58 +49,72 @@ nav {
   color: #000;
   margin-bottom: 60px;
 }
-.name{
+.name {
   font-family: Nunito;
   font-weight: 700;
   font-size: 42px;
   color: #000;
   margin-top: 40px;
 }
-.margin{
-margin: 50px;
+.margin {
+  margin: 50px;
 }
-.margin1{
+.margin1 {
   margin-top: 150px;
 }
-.heading2{
+.heading2 {
   color: #000;
 }
-.img1{
-display: block;
-margin: 30px auto;
+.img1 {
+  display: block;
+  margin: 30px auto;
 }
-.border1{
-  border-bottom: 3px dashed #67D5D2;
+.border1 {
+  border-bottom: 3px dashed #67d5d2;
   line-height: 2;
   font-family: Nunito;
   font-weight: bold;
   color: #000;
 }
-.clr
-{
+.clr {
   color: red;
   font-weight: bold;
   font-family: Nunito;
 }
-.p-style4{
+.p-style4 {
   font-family: Nunito;
   font-weight: bold;
   color: #000;
 }
-.h-style{
+.h-style {
   margin: 20px 0px;
-  font-family:Nunito;
+  font-family: Nunito;
   font-weight: 700;
   font-size: 18px;
-  color: #662EED;
+  color: #662eed;
 }
-.p-style5{
+.p-style5 {
   font-family: Nunito;
   font-size: 24px;
   font-weight: bold;
   line-height: 30px;
   margin-left: 30px;
-
+}
+footer .social-links a {
+  text-decoration: none;
+  margin: 0 15px;
+  color: #000;
+}
+footer .social-links a:hover{
+color:#662eed;
+}
+div .margin a{
+  text-decoration: none;
+  margin: 0 15px;
+  color: #000;
+}
+div .margin a:hover{
+  color: #662eed;
 }
 
 @media (max-width: 576px) {
@@ -118,7 +132,7 @@ margin: 30px auto;
   .p-style3 {
     font-size: 14px;
   }
-  .image-design{
+  .image-design {
     width: 100%;
   }
 }

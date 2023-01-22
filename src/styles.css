@@ -116,6 +116,10 @@ div .margin a{
 div .margin a:hover{
   color: #662eed;
 }
+div p .p-style6{
+  font-family: Nunito;
+  font-weight: 200;
+}
 
 @media (max-width: 576px) {
   h1 {
